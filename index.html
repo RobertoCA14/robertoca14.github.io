@@ -1,0 +1,991 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roberto Cuevas | Full Stack Developer</title>
+  <meta name="description" content="Roberto Cuevas - Full Stack Developer & Backend Engineer specializing in .NET, React, Python, and cloud solutions. 3+ years building enterprise systems and scalable web applications." />
+  <meta name="author" content="Roberto A. Cuevas M." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Roberto Cuevas | Full Stack Developer" />
+  <meta property="og:description" content="Full Stack Developer & Backend Engineer building scalable digital solutions for modern businesses." />
+  <meta property="og:url" content="https://robertoca14.github.io/" />
+  <meta property="og:image" content="https://robertoca14.github.io/assets/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Roberto Cuevas | Full Stack Developer" />
+  <meta name="twitter:description" content="Full Stack Developer & Backend Engineer building scalable digital solutions for modern businesses." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://robertoca14.github.io/" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Roberto A. Cuevas M.",
+    "jobTitle": "Full Stack Developer",
+    "url": "https://robertoca14.github.io/",
+    "sameAs": [
+      "https://www.linkedin.com/in/robertocuevas14/",
+      "https://github.com/RobertoCA14"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "J. Gasso Gasso SAS"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <a href="#about" class="skip-link">Skip to content</a>
+
+  <!-- BACKGROUND -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="blur blur-1" aria-hidden="true"></div>
+  <div class="blur blur-2" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="navbar-content">
+      <div class="logo">RC</div>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="mainNav" aria-label="Main navigation">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#experience" data-i18n="navExperience">Experience</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#skills" data-i18n="navSkills">Skills</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="langBtn" aria-label="Switch language">ES</button>
+        <a href="assets/Roberto_Cuevas_Resume.pdf" class="resume-btn" target="_blank" rel="noopener" data-i18n="resumeBtn">Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+
+    <div class="hero-left">
+
+      <div class="status-badge" data-i18n="badge">
+        AVAILABLE FOR REMOTE WORK
+      </div>
+
+      <h2 data-i18n-html="heroHeading">
+        Building scalable
+        <span>
+          digital solutions
+        </span>
+        for modern businesses.
+      </h2>
+
+      <p data-i18n="heroDesc">
+        Full Stack Developer & Backend Engineer with 3+ years building enterprise systems, APIs, and web applications using .NET, React, and cloud technologies. I turn complex business requirements into efficient, maintainable software.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a
+          href="#projects"
+          class="primary-btn"
+          data-i18n="heroBtn1"
+        >
+          View Projects
+        </a>
+
+        <a
+          href="#contact"
+          class="secondary-btn"
+          data-i18n="heroBtn2"
+        >
+          Contact Me
+        </a>
+
+      </div>
+
+      
+
+    </div>
+
+    <div class="hero-right">
+
+      <div class="profile-card">
+
+        <div class="profile-circle">
+          RC
+        </div>
+
+        <h3>
+          Roberto A. Cuevas M.
+        </h3>
+
+        <p data-i18n="profileRole">
+          Full Stack Developer
+        </p>
+
+        <div class="profile-stats">
+
+          <div>
+            <h4>3+</h4>
+            <span data-i18n="profileYears">Years Experience</span>
+          </div>
+
+          <div>
+            <h4>10+</h4>
+            <span data-i18n="profileProjects">Projects</span>
+          </div>
+
+          <div>
+            <h4>Remote</h4>
+            <span data-i18n="profileRemote">Ready</span>
+          </div>
+
+        </div>
+
+      </div>
+<div class="tech-stack">
+
+        <span>.NET</span>
+        <span>React</span>
+        <span>Angular</span>
+        <span>TypeScript</span>
+        <span>SQL Server</span>
+        <span>Azure</span>
+        <span>REST APIs</span>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section
+    class="section"
+    id="experience"
+  >
+
+    <div class="section-title">
+
+      <span>
+        EXPERIENCE
+      </span>
+
+      <h2>
+        Professional Journey
+      </h2>
+
+    </div>
+
+    <div class="timeline">
+
+      <!-- ITEM -->
+      <div class="timeline-item">
+
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+
+          <span class="timeline-date">
+            2025 — Present
+          </span>
+
+          <h3>
+            Full Stack Developer
+          </h3>
+
+          <h4>
+            J. Gasso Gasso SAS — Technology Department
+          </h4>
+
+          <p class="experience-text">
+            Led development of internal web applications and automated ETL pipelines with SQL Server, reducing manual data processing time. Designed data models, built REST APIs, and maintained enterprise solutions serving multiple departments.
+          </p>
+<button class="read-more-btn">
+  Read More
+</button>
+        </div>
+
+      </div>
+
+      <!-- ITEM -->
+      <div class="timeline-item">
+
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+
+          <span class="timeline-date">
+            2024 — 2025
+          </span>
+
+          <h3>
+            Junior Developer
+          </h3>
+
+          <h4>
+            Procuraduría General de la República
+          </h4>
+
+          <p class="experience-text">
+            Worked on biometric systems and enterprise
+            applications using React, TypeScript,
+            JavaScript and .NET APIs.
+          </p>
+<button class="read-more-btn">
+  Read More
+</button>
+        </div>
+
+      </div>
+
+      <!-- ITEM -->
+      <div class="timeline-item">
+
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+
+          <span class="timeline-date">
+            2022 — 2023
+          </span>
+
+          <h3>
+            Administrative Assistant
+          </h3>
+
+          <h4>
+            Procuraduría General de la República
+          </h4>
+
+          <p class="experience-text">
+            Administrative support and internal workflow
+            coordination for Public Ministry operations.
+          </p>
+<button class="read-more-btn">
+  Read More
+</button>
+        </div>
+
+      </div>
+       <!-- ITEM -->
+      <div class="timeline-item">
+
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+
+          <span class="timeline-date">
+            2018 — 2019
+          </span>
+
+          <h3>
+            IT Support Technician
+          </h3>
+
+          <h4>
+            Juan Pablo Pinas Hospital
+          </h4>
+
+          <p class="experience-text">
+            Provided technical support across the institution: network cabling installation, Windows OS configuration, machine-to-network connectivity, equipment maintenance, and software administration.
+          </p>
+<button class="read-more-btn">
+  Read More
+</button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section
+    class="section"
+    id="projects"
+  >
+
+    <div class="section-title">
+
+      <span>
+        PROJECTS
+      </span>
+
+      <h2>
+        Featured Work
+      </h2>
+
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- PROJECT -->
+      <div class="project-card" data-title="NKJ Construction LLC"
+  data-description="Texto completo...">
+
+  <div class="project-image">
+    <img
+      src="./assets/NkjConstruction.png"
+      alt="NKJ Construction LLC corporate website screenshot"
+    />
+  </div>
+
+  <div class="project-content">
+
+    <h3>NKJ Construction LLC</h3>
+
+    <p>
+    Designed and developed a responsive corporate website for a masonry construction company specializing in high-rise residential projects.
+   The platform highlights services, portfolio, and company expertise while providing a professional user experience and strong brand presence.
+    </p>
+
+    <div class="project-tags preview-tags">
+       <span>React</span>
+      <span>JavaScript</span>
+      <span>Api</span>
+      <span>C#</span>
+      <span>Tailwind CSS</span>
+      <span>Framer Motion</span>
+      <span>Firebase</span>
+      <span>GitHub</span>
+      <span>Vercel</span>
+    
+    </div>
+  <span class="more-tags">
+    +5 more
+  </span>
+    <div class="project-links">
+
+      <a
+        href="https://nkjconstructionllc.com/"
+        target="_blank"
+      >
+        View Project
+      </a>
+
+      <a
+        href="https://github.com/RobertoCA14/NKJConstruction"
+        target="_blank"
+      >
+        GitHub
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+
+      <!-- PROJECT -->
+       <div class="project-card">
+
+  <div class="project-image">
+    <img
+      src="./assets/DentalFLow.png"
+      alt="DentalFlow dental clinic management platform screenshot"
+    />
+  </div>
+
+  <div class="project-content">
+
+    <h3>DentalFlow</h3>
+
+    <p>
+    DentalFlow is a modern dental clinic management platform.
+It helps manage patients, appointments, treatments, and clinical records.
+The system includes digital records, odontograms, and automated reminders.
+It reduces paperwork and improves organization.
+Designed to simplify and modernize dental practice operations.
+    </p>
+
+    <div class="project-tags">
+       <span>React</span>
+      <span>TypeScript</span>
+      <span>.NET</span>
+      <span>SQL Server</span>
+      <span>Tailwind CSS</span>
+      <span>Framer Motion</span>
+      <span>Firebase</span>
+      <span>Vercel</span>
+      <span>Postman</span>
+   
+    </div>
+    <span class="more-tags">
+    +5 more
+  </span>
+    <div class="project-links">
+
+      <a
+        href="https://v0-dentalflow-saas-design.vercel.app/dashboard"
+        target="_blank"
+      >
+        View Project
+      </a>
+
+      <!-- <a
+        href="https://github.com/RobertoCA14/NKJContruction"
+        target="_blank"
+      >
+        GitHub
+      </a> -->
+
+    </div>
+
+  </div>
+      </div>
+
+      <!-- PROJECT -->
+             <div class="project-card">
+
+  <div class="project-image">
+    <img
+      src="./assets/WebSideVerasAgramonte.png"
+      alt="Veras Agramonte Investment corporate website screenshot"
+    />
+  </div>
+
+  <div class="project-content">
+
+    <h3>Veras Agramonte Investment SRL</h3>
+
+    <p>
+    Developed a modern corporate website for a medical solutions company, featuring responsive design, product showcases, project updates, and contact integrations.
+     Built with scalability in mind, allowing future content management and administrative features through a secure authentication system.
+    </p>
+
+    <div class="project-tags">
+      <span>React</span>
+      <span>JavaScript</span>
+      <span>Tailwind CSS</span>
+      <span>Next.js</span>
+      <span>Framer Motion</span>
+      <span>Firebase</span>
+      <span>Vercel</span>
+      <span>Figma</span>
+
+    </div>
+ <span class="more-tags">
+    +5 more
+  </span>
+    <div class="project-links">
+
+      <a
+        href="https://v0-veras-agramonte-website.vercel.app/"
+        target="_blank"
+      >
+        View Project
+      </a>
+
+      <!-- <a
+        href="https://github.com/RobertoCA14/NKJContruction"
+        target="_blank"
+      >
+        GitHub
+      </a> -->
+
+    </div>
+
+  </div>
+      </div>
+    </div>
+
+
+</div>
+  
+  </section>
+  <!-- Educations -->
+  <section
+    class="section"
+    id="educations"
+  >
+
+    <div class="section-title">
+
+      <span>
+        EDUCATION
+      </span>
+
+      <h2>
+       Education & Certifications
+      </h2>
+
+    </div>
+
+    <div class="timeline">
+
+      <!-- ITEM -->
+      <div class="timeline-item">
+
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+
+          <span class="timeline-date">
+            2020 -2024
+          </span>
+
+          <h3>
+            Software Developer 
+          </h3>
+
+          <h4>
+           Instituto Tecnológico de Las Américas (ITLA)
+          </h4>
+
+          <p>
+         
+                  Software Development Technologist with expertise in the analysis, design, development, and maintenance of computer systems. 
+                  Skilled in programming, databases, web and mobile development, software quality assurance, and the application of modern tools 
+                  for creating efficient technological solutions.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- ITEM -->
+      <div class="timeline-item">
+
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+
+          <span class="timeline-date">
+           2019 -2020
+          </span>
+
+          <h3>
+            Intensive English Program
+          </h3>
+
+          <h4>
+            Ministerio de Educación Superior, Ciencia y Tecnología (MESCYT)
+          </h4>
+
+          <p>
+           It is an intensive English as a foreign language program, taught four (4) hours daily for 11 months, taught in universities, institutes 
+           recognized for teaching English as a foreign language and in centers under the coordination of MESCyT.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- ITEM -->
+      <div class="timeline-item">
+
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+
+          <span class="timeline-date">
+            2025
+          </span>
+
+          <h3>
+            Front-End Web Development with Angular
+          </h3>
+
+          <h4>
+            Instituto Tecnológico de Las Américas (ITLA)
+          </h4>
+
+          <p>
+           
+          </p>
+
+        </div>
+
+      </div>
+       <!-- ITEM -->
+      <div class="timeline-item">
+
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+
+          <span class="timeline-date">
+            2022
+          </span>
+
+          <h3>
+            JavaScript Algorithms and Data Structures
+          </h3>
+
+          <h4>
+            freeCodeCamp
+          </h4>
+
+          <p>
+        
+          </p>
+
+        </div>
+         </div>
+       <!-- ITEM -->
+      <div class="timeline-item">
+
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+
+          <span class="timeline-date">
+            2022
+          </span>
+
+          <h3>
+            Responsive Web Design
+          </h3>
+
+          <h4>
+            freeCodeCamp
+          </h4>
+
+          <p>
+        
+          </p>
+
+        </div>
+        </div>
+         <!-- ITEM -->
+      <div class="timeline-item">
+
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+
+          <span class="timeline-date">
+            2020
+          </span>
+
+          <h3>
+            IT Essentials: PC Hardware and Software
+          </h3>
+
+          <h4>
+            Cisco Networking Academy
+          </h4>
+
+          <p>
+        
+          </p>
+
+        </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section
+    class="section"
+    id="skills"
+  >
+
+    <div class="section-title">
+
+      <span>
+        SKILLS
+      </span>
+
+      <h2>
+        Technologies & Tools
+      </h2>
+
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+
+     
+
+  <h3>Backend</h3>
+
+  <div class="tech-list">
+
+    <div class="tech-badge">
+      <i class="devicon-csharp-plain colored"></i>
+      <span>C#</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-dotnetcore-plain colored"></i>
+      <span>.NET</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-nodejs-plain colored"></i>
+      <span>Node.js</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-nextjs-original"></i>
+      <span>Next.js</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-python-plain colored"></i>
+      <span>Python</span>
+    </div>
+ <div class="tech-badge">
+      <i class="devicon-typescript-plain colored"></i>
+      <span>TypeScript</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-javascript-plain colored"></i>
+      <span>JavaScript</span>
+    </div>
+  </div>
+
+</div>
+
+      <div class="skill-card">
+
+  <h3>Frontend</h3>
+
+  <div class="tech-list">
+
+    <div class="tech-badge">
+      <i class="devicon-react-original colored"></i>
+      <span>React</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-angularjs-plain colored"></i>
+      <span>Angular</span>
+    </div>
+
+   
+
+    <div class="tech-badge">
+      <i class="devicon-html5-plain colored"></i>
+      <span>HTML5</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-css3-plain colored"></i>
+      <span>CSS3</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-tailwindcss-original colored"></i>
+      <span>Tailwind</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-bootstrap-plain colored"></i>
+      <span>Bootstrap</span>
+    </div>
+
+  </div>
+
+</div>
+
+      <div class="skill-card">
+
+  <h3>Databases</h3>
+
+  <div class="tech-list">
+
+    <div class="tech-badge">
+      <i class="devicon-microsoftsqlserver-plain colored"></i>
+      <span>SQL Server</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-oracle-original colored"></i>
+      <span>Oracle</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-mysql-plain colored"></i>
+      <span>MySQL</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-postgresql-plain colored"></i>
+      <span>PostgreSQL</span>
+    </div>
+
+  </div>
+
+</div>
+      <div class="skill-card">
+
+  <h3>Cloud</h3>
+
+  <div class="tech-list">
+
+    <div class="tech-badge">
+      <i class="devicon-azure-plain colored"></i>
+      <span>Azure</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-amazonwebservices-original colored"></i>
+      <span>AWS</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-windows8-original"></i>
+      <span>IIS</span>
+    </div>
+
+  </div>
+
+</div>
+      <div class="skill-card">
+
+  <h3>Tools</h3>
+
+  <div class="tech-list">
+
+    <div class="tech-badge">
+      <i class="devicon-git-plain colored"></i>
+      <span>Git</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-github-original"></i>
+      <span>GitHub</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-postman-plain colored"></i>
+      <span>Postman</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-figma-plain colored"></i>
+      <span>Figma</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-vscode-plain colored"></i>
+      <span>VS Code</span>
+    </div>
+
+    <div class="tech-badge">
+      <i class="devicon-visualstudio-plain colored"></i>
+      <span>Visual Studio</span>
+    </div>
+
+  </div>
+
+</div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section
+    class="section"
+    id="contact"
+  >
+
+    <div class="contact-card">
+
+      <span data-i18n="contactLabel">
+        LET'S BUILD SOMETHING GREAT
+      </span>
+
+      <h2 data-i18n="contactTitle">
+        Ready to work together?
+      </h2>
+
+      <p data-i18n="contactDesc">
+        Open to remote opportunities,
+        enterprise projects and modern
+        software engineering challenges.
+      </p>
+
+      <div class="contact-buttons">
+
+        <a href="mailto:Robel970914@gmail.com">
+          Email Me
+        </a>
+
+        <a href="https://www.linkedin.com/in/robertocuevas14/" target="_blank" rel="noopener">
+          LinkedIn
+        </a>
+
+        <a href="https://github.com/RobertoCA14" target="_blank" rel="noopener">
+          GitHub
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+  </main>
+
+  <div id="projectModal" class="project-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close-modal" aria-label="Close project details">&times;</button>
+
+       <img
+      id="modalImage"
+      src=""
+      alt=""
+    >
+
+    <h2 id="modalTitle"></h2>
+
+    <p id="modalDescription"></p>
+
+    <div id="modalTags" class="modal-tags"></div>
+
+  </div>
+  </div>
+  <!-- FOOTER -->
+  <footer>
+
+    <p data-i18n="footer">
+      © 2026 Roberto Cuevas.
+      Built with passion and modern web technologies.
+    </p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
